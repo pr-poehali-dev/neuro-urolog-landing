@@ -8,7 +8,9 @@ const Index = () => {
       {/* Floating Header */}
       <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-white/80 backdrop-blur-lg rounded-full px-8 py-3 shadow-lg">
         <div className="flex items-center space-x-8">
-          <div className="font-bold text-lg text-[#7dd4bb]">Д-р Совяк</div>
+          <div className="font-bold text-lg text-[#7dd4bb]">
+            Доктор Совьяк Маргарита Александровна
+          </div>
           <nav className="hidden md:flex items-center space-x-6 text-sm">
             <a href="#about" className="hover:text-[#7dd4bb] transition-colors">
               О враче
@@ -40,7 +42,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="inline-block bg-[#7dd4bb]/10 px-4 py-2 rounded-full text-sm font-medium text-[#7dd4bb]">
-              Врач-нейроуролог высшей категории
+              Врач-нейроуролог
             </div>
             <h1 className="text-6xl lg:text-7xl font-black leading-tight">
               <span className="text-gray-900">Доктор</span>
