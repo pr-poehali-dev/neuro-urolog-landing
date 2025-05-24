@@ -15,31 +15,31 @@ const Index = () => {
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="font-bold text-xl text-[#0EA5E9]">
+          <div className="font-bold text-xl text-[#7dd4bb]">
             Д-р Нейроуролог
           </div>
           <div className="hidden md:flex items-center space-x-6">
             <a
               href="#about"
-              className="text-gray-600 hover:text-[#0EA5E9] transition-colors"
+              className="text-gray-600 hover:text-[#7dd4bb] transition-colors"
             >
               О враче
             </a>
             <a
               href="#services"
-              className="text-gray-600 hover:text-[#0EA5E9] transition-colors"
+              className="text-gray-600 hover:text-[#7dd4bb] transition-colors"
             >
               Услуги
             </a>
             <a
               href="#appointment"
-              className="text-gray-600 hover:text-[#0EA5E9] transition-colors"
+              className="text-gray-600 hover:text-[#7dd4bb] transition-colors"
             >
               Запись
             </a>
             <a
               href="tel:+7999999999"
-              className="flex items-center text-[#0EA5E9]"
+              className="flex items-center text-[#7dd4bb]"
             >
               <Icon name="Phone" size={16} className="mr-1" />
               +7 (999) 999-99-99
@@ -49,7 +49,7 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-[#0EA5E9] to-[#1EAEDB] text-white py-20">
+      <section className="bg-gradient-to-br from-[#7dd4bb] to-[#9dc7c7] text-white py-20">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Врач-нейроуролог</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
@@ -59,7 +59,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-white text-[#0EA5E9] hover:bg-gray-100"
+              className="bg-white text-[#7dd4bb] hover:bg-gray-100"
             >
               <Icon name="Calendar" size={20} className="mr-2" />
               Записаться на консультацию
@@ -67,7 +67,7 @@ const Index = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-[#0EA5E9]"
+              className="border-white text-white hover:bg-white hover:text-[#7dd4bb]"
             >
               <Icon name="MessageCircle" size={20} className="mr-2" />
               Задать вопрос
@@ -93,7 +93,7 @@ const Index = () => {
                     <Icon
                       name="GraduationCap"
                       size={20}
-                      className="text-[#0EA5E9] mr-3"
+                      className="text-[#7dd4bb] mr-3"
                     />
                     <span>Первый МГМУ им. И.М. Сеченова</span>
                   </div>
@@ -101,7 +101,7 @@ const Index = () => {
                     <Icon
                       name="Award"
                       size={20}
-                      className="text-[#0EA5E9] mr-3"
+                      className="text-[#7dd4bb] mr-3"
                     />
                     <span>Сертификат по нейроурологии</span>
                   </div>
@@ -109,7 +109,7 @@ const Index = () => {
                     <Icon
                       name="Users"
                       size={20}
-                      className="text-[#0EA5E9] mr-3"
+                      className="text-[#7dd4bb] mr-3"
                     />
                     <span>Более 5000 успешных операций</span>
                   </div>
@@ -138,7 +138,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#0EA5E9] rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#7dd4bb] rounded-lg flex items-center justify-center mb-4">
                   <Icon name="Stethoscope" size={24} className="text-white" />
                 </div>
                 <CardTitle>Диагностика</CardTitle>
@@ -158,7 +158,7 @@ const Index = () => {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#0EA5E9] rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#7dd4bb] rounded-lg flex items-center justify-center mb-4">
                   <Icon name="Zap" size={24} className="text-white" />
                 </div>
                 <CardTitle>Лечение</CardTitle>
@@ -177,7 +177,7 @@ const Index = () => {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#0EA5E9] rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#7dd4bb] rounded-lg flex items-center justify-center mb-4">
                   <Icon name="Heart" size={24} className="text-white" />
                 </div>
                 <CardTitle>Реабилитация</CardTitle>
@@ -243,7 +243,7 @@ const Index = () => {
                   ></textarea>
                 </div>
                 <Button
-                  className="w-full bg-[#0EA5E9] hover:bg-[#1EAEDB]"
+                  className="w-full bg-[#7dd4bb] hover:bg-[#1EAEDB]"
                   size="lg"
                 >
                   <Icon name="Send" size={20} className="mr-2" />
@@ -293,7 +293,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-bold text-xl mb-4 text-[#0EA5E9]">
+              <h3 className="font-bold text-xl mb-4 text-[#7dd4bb]">
                 Контакты
               </h3>
               <div className="space-y-2">
@@ -324,13 +324,13 @@ const Index = () => {
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-[#0EA5E9] transition-colors"
+                  className="text-gray-300 hover:text-[#7dd4bb] transition-colors"
                 >
                   <Icon name="MessageCircle" size={24} />
                 </a>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-[#0EA5E9] transition-colors"
+                  className="text-gray-300 hover:text-[#7dd4bb] transition-colors"
                 >
                   <Icon name="Mail" size={24} />
                 </a>
