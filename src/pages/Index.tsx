@@ -95,7 +95,7 @@ const Index = () => {
                       size={20}
                       className="text-[#7dd4bb] mr-3"
                     />
-                    <span>Первый МГМУ им. И.М. Сеченова</span>
+                    <span>Специализация по нейроурологии</span>
                   </div>
                   <div className="flex items-center">
                     <Icon
@@ -103,7 +103,7 @@ const Index = () => {
                       size={20}
                       className="text-[#7dd4bb] mr-3"
                     />
-                    <span>Сертификат по нейроурологии</span>
+                    <span>Врач высшей квалификационной категории</span>
                   </div>
                   <div className="flex items-center">
                     <Icon
@@ -111,15 +111,21 @@ const Index = () => {
                       size={20}
                       className="text-[#7dd4bb] mr-3"
                     />
-                    <span>Более 5000 успешных операций</span>
+                    <span>Более 15 лет практического опыта</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-6"></div>
+              <div className="w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/files/fb6cc7b8-8c2c-4aea-9b33-149dad80406c.jpeg"
+                  alt="Доктор Маргарита Александровна Совяк"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-semibold text-center mb-2">
-                Доктор Иванов А.В.
+                Доктор Совяк М.А.
               </h3>
               <p className="text-center text-gray-600">
                 Врач-нейроуролог высшей категории
